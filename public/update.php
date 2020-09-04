@@ -29,7 +29,7 @@
 <?php include "templates/header.php"; ?>
 
 
-<h2>Results</h2>
+<h2>Update Shoes</h2>
 
 <!-- This is a loop, which will loop through each result in the array -->
 <?php foreach($result as $row) { ?>

@@ -57,7 +57,7 @@
 <?php include "templates/header.php"; ?>
 
 
-<h2>Delete User</h2>
+<h2>Delete Shoes</h2>
 
 
 
