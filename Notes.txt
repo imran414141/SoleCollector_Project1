@@ -7,9 +7,19 @@ Things wanting to Add:
 
 I noted that on the delete page for shoes, users were not able to be "warned" whether or not they were wanting to delete the shoe. Giving them a 2nd chance or confirmation, and not a mistake. 
 
+Image upload and even upload from mobile device <--- Investigated but was a little ttricky.
+
+
 
 Issues:
 
 Hiding variables / content from users before logging in. I found this beyond timely trying to hide content behind a login form.
 
+Usernames and password issues with siteground.
+
+Siteground displaying differently to my localhost setup.
+
+Wanting to customise each page to suit the theme. Your COllection = lokerroom full of shoes.... Delete SHoes = Shoes on fire (Background images)
+
+wanting information to overlay a background image in the future.
 

@@ -299,6 +299,15 @@ h1 {
   color: #111;
 }
 
+
+h2 {
+ 
+  font-size: 26px;
+  font-family: arial;
+  color: midnightblue;
+    font-weight: 500;
+}
+
 /* signup.php */
 
 .form-signup {
@@ -369,7 +378,7 @@ TOP NAV
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: blueviolet;
   color: black;
 }
 
@@ -378,3 +387,27 @@ TOP NAV
   background-color: #4CAF50;
   color: white;
 }
+
+
+    
+    
+
+    
+    body, html {
+  height: 100%;
+}
+
+.mainimg {
+  /* The image used */
+  background-image: url("/public/assets/img/background.png");
+
+  /* Full height */
+  height: 100%;
+    width: auto;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
+    opacity: .5;
+}
+

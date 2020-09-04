@@ -55,4 +55,6 @@ if (isset($_POST['submit'])) {
 <input type="submit" name="submit" value="Submit">
 </form>
 
+
+
 <?php include "templates/footer.php"; ?>
