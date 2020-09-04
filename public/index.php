@@ -12,7 +12,6 @@
 
 
 <?php include "templates/footer.php";
-}
-else
+
 
  ?>
