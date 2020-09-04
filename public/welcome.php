@@ -10,6 +10,42 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
  
 <!DOCTYPE html>
 <html lang="en">
+
+<header>
+
+   <h1><a href="index.php"> Sole Collector</a></h1>
+
+  <nav class="nav-header-main">
+    <a class="header-logo" href="index.php">
+
+    </a>
+
+        <div class="topnav">
+
+<ul>
+<li><a href="create.php">Add Shoe</a></li>
+<li><a href="read.php">Your Collection</a></li>
+<li><a href="update.php">Update Collection</a></li>
+<li><a href="delete.php">Delete Shoes</a></li>
+</ul>
+
+</div>
+
+  </nav>
+
+<title>Sole Collector</title>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="assets/css/style.css">
+</header>
+
+<body>
+
+
+
+
+
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Welcome</title>
@@ -27,13 +63,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     </p>
         </header>
     </div>
-    <ul>
-<li><a href="index.php">Home</a></li>
-<li><a href="create.php">Add Shoe</a></li>
-<li><a href="read.php">Your Collection</a></li>
-<li><a href="update.php">Update Collection</a></li>
-<li><a href="delete.php">Delete Shoes</a></li>
-</ul>
+
     
 </body>
 </html>
