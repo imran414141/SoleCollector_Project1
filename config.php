@@ -1,10 +1,10 @@
 <?php
 
-$host       = "localhost";
-$username   = "root";
-$password   = "";
-$dbname     = "sole_collector"; 
-$dsn        = "mysql:host=$host;dbname=$dbname"; 
+
+$dBServername = "localhost";
+$dBUsername = "root";
+$dBPassword = "";
+$dBName = "shoecollection";
 $options    = array(
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
               );
@@ -17,3 +17,6 @@ try{
 }
 
 ?>
+
+
+
