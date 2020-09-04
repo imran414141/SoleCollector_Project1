@@ -1,19 +1,14 @@
-<?php// Initialize the session
-session_start();
- 
-// Check if the user is logged in, if not then redirect him to login page
-if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-    header("location: login.php");
-    exit;
-}
+  
+<?php
+// check whether user is logged in, redirect to login if not.
+require "user-check.php";
 ?>
- 
+
 <!DOCTYPE html>
 <html lang="en">
 
 <header>
 
-   <h1><a href="index.php"> Sole Collector</a></h1>
 
   <nav class="nav-header-main">
     <a class="header-logo" href="index.php">
@@ -40,9 +35,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </header>
 
 <body>
-
-
-
 
 
 <html lang="en">

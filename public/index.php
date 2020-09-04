@@ -1,4 +1,10 @@
-<?php include "templates/header.php"; ?>
+
+<?php
+session_start();
+
+if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
+  
+ include "templates/header.php"; ?>
 
 
 
@@ -7,4 +13,11 @@
 
 
 
-<?php include "templates/footer.php"; ?>
+<?php include "templates/footer.php";
+}
+else
+{
+	header("Location: login.php");
+	exit();
+}
+ ?>
