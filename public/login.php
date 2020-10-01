@@ -19,7 +19,7 @@ $username_err = $password_err = "";
 if($_SERVER["REQUEST_METHOD"] == "POST"){
  
     // Check if username field is empty
-	// alternate of this is just putting "required" in html anchore tags.
+	// alternate of this is just putting "required" key word in html anchore tags.
     if(empty(trim($_POST["username"]))){
         $username_err = "Please enter username.";
     } else{
